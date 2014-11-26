@@ -5,6 +5,7 @@ Generating private keys from passphrases, checking transactions and ballances. S
 
 #### Usage
 ```
+Usage: perl btc_sweeper.pl -w[wordlist] -t[threads] -o[output]
 perl btc_sweeper.pl -w pass.txt -t 10 -o output.txt
 ```
 #### Overview
