@@ -3,21 +3,18 @@ Bitcoin-Sweeper
 
 Generating private keys from passphrases, checking transactions and ballances. Sweeping bitcoins by importing private keys into blockchain wallet.
 
-Usage
-=====
+#### Usage
 
 perl btc_sweeper.pl -w pass.txt -t 10 -o output.txt
 
-Overview
-========
+#### Overview
 
 BITCOIN Sweeper is simple tool written in Perl.
 It could be used to generate bitcoin private keys from passphrases
 and check transtactions/balance.
 
-Example
-=======
-
+#### Example
+```
       ___  _ ___ ____ ____ _ _  _ 
       |__] |  |  |    |  | | |\ |
       |__] |  |  |___ |__| | | \|          
@@ -39,10 +36,10 @@ Example
 [i] Writing output ...
 
 [x] Done.
+```
 
-Output
-======
-
+#### Output
+```
 18X6yC1p1hXvXjuwZfjT52Z1am9LNuAAC6, Passphrase: appointive
 18X6yC1p1hXvXjuwZfjT52Z1am9LNuAAC6, Received: 0.00005460
 18X6yC1p1hXvXjuwZfjT52Z1am9LNuAAC6, PrivateKey: 5JhijED9PdJHxBhAqFW3kWaJRkvckFsLY7jou4BmqnEmzf5WMHf
@@ -62,9 +59,9 @@ Output
 1LBG3NrauAGidWWNAUVX1AkkViFwyuAytU, Received: 0.00005460
 1LBG3NrauAGidWWNAUVX1AkkViFwyuAytU, PrivateKey: 5JTBdKSeLsyPDSMfXvYE9FdAsjXV7k6GBrhxXLEdUtj477P8qPA
 1LBG3NrauAGidWWNAUVX1AkkViFwyuAytU, Balance: 0
+```
 
-TODO
-====
+#### TODO
 
 Import private keys to blockchain wallet via RCP.
 Revrite keyfmt.py to Perl
