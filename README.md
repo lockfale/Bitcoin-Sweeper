@@ -4,9 +4,9 @@ Bitcoin-Sweeper
 Generating private keys from passphrases, checking transactions and ballances. Sweeping bitcoins by importing private keys into blockchain wallet.
 
 #### Usage
-
+```
 perl btc_sweeper.pl -w pass.txt -t 10 -o output.txt
-
+```
 #### Overview
 
 BITCOIN Sweeper is simple tool written in Perl.
@@ -32,6 +32,7 @@ and check transtactions/balance.
 
 [i] Wallets with balance: 0
 [i] Total balance: 0 BTC
+
 [i] Saving to: output.txt
 [i] Writing output ...
 
