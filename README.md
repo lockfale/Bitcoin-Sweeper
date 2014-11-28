@@ -3,6 +3,11 @@ Bitcoin-Sweeper
 
 Generating private keys from passphrases, checking transactions and ballances. Sweeping bitcoins by importing private keys into blockchain wallet.
 
+#### Donations
+Donations are welcome & appreciated!
+
+1MMN4rQkvfzjXrHU159bhJVPgPmQjTL5RG
+
 #### Usage
 ```
 Usage: perl btc_sweeper.pl -w[wordlist] -t[threads] -o[output]
