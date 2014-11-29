@@ -79,6 +79,7 @@ root@btc-sweeper:~# unzip master.zip
 root@btc-sweeper:~# cd Bitcoin-Sweeper-master/
 root@btc-sweeper:~/Bitcoin-Sweeper-master# apt-get install libwww-mechanize-perl
 root@btc-sweeper:~/Bitcoin-Sweeper-master# apt-get install build-essential
+root@btc-sweeper:~/Bitcoin-Sweeper-master# apt-get install python-ecdsa
 root@btc-sweeper:~/Bitcoin-Sweeper-master# apt-get install cpanminus
 root@btc-sweeper:~/Bitcoin-Sweeper-master# cpanm Finance::Bitcoin::API
 root@btc-sweeper:~/Bitcoin-Sweeper-master# cpanm Parallel::ForkManager
