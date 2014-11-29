@@ -68,6 +68,34 @@ and check transtactions/balance.
 1LBG3NrauAGidWWNAUVX1AkkViFwyuAytU, Balance: 0
 ```
 
+#### Installation
+```
+root@btc-sweeper:~# uname -a
+Linux btc-sweeper 3.13.0-37-generic #64-Ubuntu SMP Mon Sep 22 21:28:38 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+root@btc-sweeper:~#
+root@btc-sweeper:~# wget https://github.com/vavkamil/Bitcoin-Sweeper/archive/master.zip
+root@btc-sweeper:~# apt-get install unzip
+root@btc-sweeper:~# unzip master.zip
+root@btc-sweeper:~# cd Bitcoin-Sweeper-master/
+root@btc-sweeper:~/Bitcoin-Sweeper-master# apt-get install libwww-mechanize-perl
+root@btc-sweeper:~/Bitcoin-Sweeper-master# apt-get install build-essential
+root@btc-sweeper:~/Bitcoin-Sweeper-master# apt-get install cpanminus
+root@btc-sweeper:~/Bitcoin-Sweeper-master# cpanm Finance::Bitcoin::API
+root@btc-sweeper:~/Bitcoin-Sweeper-master# cpanm Parallel::ForkManager
+root@btc-sweeper:~#
+root@btc-sweeper:~/Bitcoin-Sweeper-master# perl btc_sweeper.pl 
+      ___  _ ___ ____ ____ _ _  _ 
+      |__] |  |  |    |  | | |\ |
+      |__] |  |  |___ |__| | | \|          
+  ____ _ _ _ ____ ____ ___  ____ ____
+  [__  | | | |___ |___ |__] |___ |__/
+  ___] |_|_| |___ |___ |    |___ |  \
+
+Usage: perl btc_sweeper.pl -w pass.txt -t 10 -o output.txt
+
+root@btc-sweeper:~/Bitcoin-Sweeper-master# 
+```
+
 #### TODO
 
 Import private keys to blockchain wallet via RCP.<br>
